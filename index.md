@@ -1,122 +1,86 @@
 ---
 layout: blocks
-title: Sojusznicy w IT
-date: 
+title: Homepage
+date: 2017-11-22T23:00:00.000+00:00
 page_sections:
-- template: navigation-header
-  block: header-1
-  navigation:
-  - link: "/"
-    link_text: Sojusznicy w IT
-  - link: "/przywileje.html"
-    link_text: 'Lista przywilejów '
-  - link: https://www.programistkaikot.pl/search/label/sojusznicy
-    link_text: Wszystkie wpisy na blogu
-  - link: "#subscribe"
-    link_text: Subskrybuj
-  logo: "/uploads/2020/06/12/imgbin_holding-hands-stock-photography-png_de7vvb5s12.png"
-  page_name: Sojusznicy w IT
-- template: hero-banner-w-image
-  block: hero-2
-  background_image: "/uploads/2020/06/11/nathan-dumlao-pmw4jzelqcw-unsplash2.jpg"
-  headline: "<strong>Sojusznicy w IT <br></strong><br>Chcesz pomagać innym w świecie
-    IT?<br>Super, zostałeś właśnie sojusznikiem"
-  image:
-    image: ''
-    alt_text: ''
-  content: Jest wiele uprzedzeń, przywilejów, zamkniętych drzwi w IT.<br>Często nie
-    da się ich otworzyć bez pomocy z wewnątrz.<br>Jeśli chcesz pomóc, jeśli interesuje
-    Cię nie tylko własny ogródek, podejmuj małe działania dla systemowych zmian. Zostań
-    sojusznikiem.
-  cta:
-    enabled: false
-    url: ''
-    button_text: ''
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
-  media:
-    image: "/uploads/2020/06/11/sharon-mccutcheon-tzzwc_xscly-unsplash.jpg"
-    alt_text: ''
-  headline: Diversity, czy dyskusja jest tutaj potrzebna?
-  content: Co roku powracam do tematu i co roku jest on aktualny. Tym razem większy
-    zbiór przemyśleń a także rad co zrobić aby IT nie było tak zamkniętym środowiskiem
-    jak bywa teraz.<br>Przeczytaj <a href="http://www.programistkaikot.pl/2020/06/sojusznicy-w-it-wstep.html"
-    title="">wstęp</a> i <a href="http://www.programistkaikot.pl/2020/06/sojusznicy-w-it-czy-naprawde.html"
-    title="">trochę o tym jak temat wygląda w Polsce</a>
-- template: content-feature
-  block: feature-1
-  media_alignment: Right
-  media:
-    image: "/uploads/2020/06/11/untitled.png"
-    alt_text: Diversity puzzle image
-  headline: Diversity, Inclusion, Equity
-  content: 'Różnorodność to nie tylko poprawianie statystyk zatrudnionych pracowników.
-    To także wspieranie ich w pracy i dbanie o sprawiedliwość.<br>Przeczytaj więcej
-    w poście <a href="http://www.programistkaikot.pl/2020/06/sojusznicy-w-it-diversity-inclusion.html"
-    title=""><em>Sojusznicy w IT: Diversity, Inclusion, Equity</em></a>'
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
-  media:
-    image: "/uploads/2020/06/11/1_4czkprforkgbtth1ghjpcw.png"
-    alt_text: ''
-  headline: <strong><span class="light">Przywileje</span></strong>
-  content: 'Mówiąc o różnorodności i sprawiedliwości społecznej musimy też powiedzieć
-    o przywilejach. <a href="http://sojusznicywit.pl/przywileje.html" title="">Moja
-    lista 60 przywilejów</a> przystosowana do warunków polskich.<br>Przeczytaj i sprawdz
-    jak wiele przywilejów masz, mimo że ich nie zauważasz.<a href="http://www.programistkaikot.pl/2020/06/sojusznicy-w-it-przywileje.html"
-    title=""><br>Sojusznicy i IT: Przywileje</a>'
-- template: content-feature
-  block: feature-1
-  media_alignment: Right
-  headline: Sojusznicy
-  content: Możesz robić małe rzeczy, które polepszą nasz światek IT.<br>O typach zachowań
-    i historiach z nimi powiązanymi możesz poczytać w <a href="http://www.programistkaikot.pl/2020/06/sojusznicy-w-it-sojusznicy.html"
-    title="">artykule o sojusznikach</a>. Wykorzystaj swoje przywileje i zostań sojusznikiem.
-  media:
-    image: "/uploads/2020/06/11/sojusz.jpg"
-    alt_text: ''
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
-  headline: Sprzymierzeńcy czy rycerze
-  media:
-    image: "/uploads/2020/06/18/2-minions-characters1.jpg"
-    alt_text: minion knight
-  content: Działasz na rzecz mniejszości? To wspaniale, ale pamiętaj aby starać się
-    o zmiany systemowe bardziej niż o pojedyncze akcje na rzecz indywidualnych osób.
-    Czytaj więcej w <a href="http://www.programistkaikot.pl/2020/06/sojusznicy-w-it-sprzymierzency-czy.html"
-    title="">artykule o rycerzach.</a>
-- template: hero-banner-w-image
-  block: hero-2
-  background_image: "/uploads/2020/06/12/aga-putra-p_p4ngz5cb4-unsplash.jpg"
-  headline: "<strong>Sojusznicy w IT </strong>"
-  content: "<strong>Nie chodzi o statystyki Diversity. Chodzi o poczucie sprawiedliwości.
-    Przywileje są różne i są związane z pewną grupą społeczną nie osobą. Ale jeśli
-    należysz do grupy z przywilejami - możesz się nimi podzielić. <br>Nawet małe kroki
-    mogą doprowadzić do zmian systemowych. Ale trzeba podejmować te małe kroki aby
-    coś się wydarzyło, samo się nie zrobi. <br>Bądź sojusznikiem. Działaj.<br></strong><br><br>Sojusznicy
-    to bardzo szeroki temat. Pisanie o tym temacie zabiera sporo czasu. Jeśli chcesz
-    czytać więcej zostaw maila aby dać motywację autorowi. Może powstanie z tego nawet
-    książka, jeśli tylko pojawi się zapotrzebowanie."
-  image:
-    image: ''
-    alt_text: ''
-  cta:
-    enabled: false
-    url: ''
-    button_text: ''
-- template: signup-bar
-  block: cta-bar
-  content: <section id="subscribe">Chcesz wiedzieć więcej? Zapisz się:</section>
-  email_recipient: programistkaikot@gmail.com
-- template: 4-column-footer
-  block: footer-2
-  image: "/uploads/2020/06/11/imgbin_holding-hands-stock-photography-png_de7vvb5s1.png"
-  col_4: "<br>Programistka i Kot<br>Joanna Lamch<br>"
-  col_2: ''
-  col_3: <img src="/uploads/2020/06/12/imgbin_holding-hands-stock-photography-png_de7vvb5s12.png">
-
+  - template: navigation-header-w-button
+    block: header-2
+    logo: "/uploads/2018/06/21/forestry-full.svg"
+    navigation:
+      - link: "/"
+        link_text: Ubuild
+      - link: "#swap"
+        link_text: Swap
+      - link: "#customize"
+        link_text: Customize
+      - link: "#responsive"
+        link_text: Responsive
+      - link: "#blocks"
+        link_text: Blocks
+    cta:
+      url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
+      button_text: Import
+  - template: hero-banner-w-image
+    block: hero-2
+    slug: features
+    headline: uBuild <br><strong>design blocks</strong>
+    content:
+      The tool that allows you to build beautiful sites<br>all inside Forestry's
+      content manager.
+    cta:
+      enabled: true
+      url: https://github.com/forestryio/ubuild-jekyll
+      button_text: "See on GitHub "
+    image:
+      image: "/uploads/2018/06/21/product-shot-1.png"
+      alt_text: Product Shot
+    background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  - template: content-feature
+    block: feature-1
+    media_alignment: Left
+    slug: swap
+    headline:
+      <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
+      class="light">the Blocks to create sites quickly</span>
+    content:
+      Quickly assemble and create custom sites with 16 design blocks for seven
+      different sections.
+    media:
+      image: "/uploads/2018/06/21/blocks-split.png"
+      alt_text: uBuild Blocks Mock-Up
+  - template: content-feature
+    block: feature-1
+    media_alignment: Right
+    slug: customize
+    headline:
+      <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
+      edits throughout your new site</span>
+    content:
+      Each block comes with custom Front Matter that can be edited in
+      Forestry CMS.
+    media:
+      image: "/uploads/2018/06/21/edit.gif"
+      alt_text: Customize Blocks
+  - template: 1-column-text
+    block: one-column-1
+    slug: responsive
+    headline: 16 Fully Responsive Design Blocks
+    content: |
+      The Design Blocks can be used without Forestry but to harness the power
+      of Blocks we recommend using <a href="https://forestry.io">Forestry</a>. Once the site is imported you can immediately
+      create new sites and make them fully customizable.
+  - template: full-width-media-element
+    block: media-1
+    image: "/uploads/2018/06/21/theme.png"
+    caption: All Available Blocks
+    slug: blocks
+  - template: detail-content
+    block: text-1
+    headline: Steps to Build a Site!
+    content:
+      <p>uBuild is an open-source Jekyll based demo that doubles as a builder tool inside the Forestry content manager.</p><ol><li><p><a href="https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll">Import this demo in Forestry</a>.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
+      article</a> and create your own Blocks.</p></li><li><p>Add and customize the available Blocks and preview them as you go along.</p></li></ol>
+  - template: simple-footer
+    block: footer-1
+    content: Made with ❤︎ in Canada
 ---
-foo bar

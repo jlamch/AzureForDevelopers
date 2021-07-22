@@ -1,8 +1,5 @@
 ---
 main:
-- url: jlamch.net
-  weight: 2
-  title: YouToube
 - identifier: home
   url: "/"
   weight: 1
