@@ -1,9 +1,9 @@
 ---
 main:
+- url: jlamch.net
+  weight: 2
+  title: YouToube
 - identifier: home
   url: "/"
   weight: 1
   title: Home
-- url: https://jlfedra.github.io/sojusznicywit/#subscribe
-  weight: 2
-  title: Subskrybuj
