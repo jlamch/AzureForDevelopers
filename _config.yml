@@ -1,0 +1,15 @@
+---
+title: Sojusznicy w IT
+author: programistkaikot.pl
+email: programistkaikot@gmail.com
+description: Sojusznicy w IT to akcja pomagająca zwiększać świadomość jak pomagać w IT mniej uprzywilejowanym.
+baseurl: "/"
+url: ''
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+plugins:
+- jekyll-feed
+- jekyll-menus
