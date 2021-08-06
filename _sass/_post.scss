@@ -31,12 +31,12 @@
     }
 
     .list-post-title {
-      font-size: 22px;
+      font-size: 25px;
       transition: .3s;
       color: $colortheme;
     }
     .list-post-description {
-      font-size: 16px
+      font-size: 20px
     }
 
     .list-post-written {
@@ -68,7 +68,7 @@
   }
 
   .list-item-2-img {
-    margin-right: 20px;
+    margin-right: 22px;
       @media screen and (max-width: 839px) {
         margin-right: 0;
         margin-top: 20px;
