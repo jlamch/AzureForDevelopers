@@ -22,7 +22,7 @@ layout: default
 
     <!-- posts -->
     <div class="margin-top-20 margin-bottom-50">
-      {% for x in page.questions %}
+      {% for x in page.questions reversed %}
       <div class="list-item-2 container wrap-reverse align-items-end justify-content-center" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
         {% if x.image %}
         <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
@@ -36,10 +36,10 @@ layout: default
             </h2>
           </div>
           <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">            
-            <div class="list-item-icon container align-items-center justify-content-center">
-              <span class="feather-icon icon-{{x.ytlink}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
-            </div>
             <span class="list-post-description">
+              <span class="feather-icon icon-youtube" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500">
+                <a href="{{ x.ytlink }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+              </span>
               {{x.answer}}
             </span>
           </div>
