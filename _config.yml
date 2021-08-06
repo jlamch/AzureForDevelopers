@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "Help Center"
-email: gusquinalha@gmail.com
-description: "Simple and flexible Jekyll theme for help center."
-baseurl: "/jekyll-help-center-theme"
-url: "http://quinalha.me"
-twitter_username: "gustavoquinalha"
-github_username:  "gustavoquinalha"
-color_theme:  "#0081ff"
+title: "Azure for developers"
+email: programistkaikot@gmail.com
+description: "Azure for Developers cours page."
+baseurl: "/AzureForDevelopers"
+url: "https://jlamch.net"
+twitter_username: "jlamch"
+github_username:  "jlamch"
+color_theme:  "#765B8A"
 color_text:  "#fff"
 language:  "en"
 
