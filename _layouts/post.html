@@ -21,37 +21,48 @@ layout: default
     <!-- titles -->
 
     <!-- posts -->
+           
     <div class="margin-top-20 margin-bottom-50">
-      {% for x in page.questions reversed %}
-      <div class="list-item-2 container wrap-reverse align-items-end justify-content-center" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
-        {% if x.image %}
-        <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-          <img src="{{ site.baseurl }}/assets/img/{{ x.image }}" width="100%" alt="">
+      {% for x in page.questions  %}
+      <a  href="{{ x.ytlink }}" >
+        <div class="list-item-2 container wrap-reverse align-items-end justify-content-center" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
+          <!-- {% if x.image %}
+            <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
+              <img src="{{ site.baseurl }}/assets/img/{{ x.image }}" width="100%" alt="">
+              {% if x.ytlink %}
+              <a class="feather feather-youtube list-post-title" href="{{ x.ytlink }}" >
+                <div>
+                  <img src="{{ site.baseurl }}/assets/fonts/youtube.svg" width="100%" alt="">
+                  Azure for developers chapter{{x.chapter }}
+                </div>
+              </a>
+              {% endif %}
+            </div>
+            {% endif %} -->
+            <div class="flex-basis-400 flex-grow-5">
+              <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
+                <h2 class="list-post-title">
+                  {{x.question}}
+                </h2>
+              </div>
+              <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">            
+                <span class="list-post-description">           
+                  {{x.answer}}
+                </span>
+              </div>
+            </div>
+            <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+              <small><time>{{ x.date | date_to_string }}</time></small>
+            </div>
+          </div>          
+        </a>
+          {% endfor %}
         </div>
-        {% endif %}
-        <div class="flex-basis-400 flex-grow-5">
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <h2 class="list-post-title">
-            {{x.question}}
-            </h2>
-          </div>
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">            
-            <span class="list-post-description">
-              <span class="feather-icon icon-youtube" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500">
-                <a href="{{ x.ytlink }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
-              </span>
-              {{x.answer}}
-            </span>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <!-- posts -->
+        <!-- posts -->
 
     <!-- content -->
-    {{ content }}
+   {{ content }}
 
-    <!-- content -->
+   <!-- content -->
   </article>
 </div>
