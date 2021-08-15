@@ -23,7 +23,7 @@ questions:
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/programistkaikot/azure4devs?primary_color=855ba8'});return false;">
-<span class="feather-icon icon-calendar supportme-button"  data-aos="fade-right" data-aos-offset="0" data-aos-delay="500">
+<span class="feather-icon icon-calendar supportme-button" >
     Umów się na konsultacje
  </span>
 </a>
@@ -37,7 +37,9 @@ questions:
 
 ### Jeśli podoba Ci się jak opowiadam i chcesz posłuchać mnie na żywo napisz do mnie!
   * Reprezentujesz community chętnie przyjadę z warsztatem, za dobrą pizze albo burgera ;) 
-  * Reprezentujesz firmę - chętnie przeprowadzę szkolenie </br>
-<span class="feather-icon icon-mail supportme-button" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500">
+  * Reprezentujesz firmę - chętnie przeprowadzę szkolenie 
+  <br/>
+<span class="feather-icon icon-mail supportme-button" >
     <a href="mailto:programistkaikot@gmail.com?subject=Azure4Devs">Napisz do mnie</a> 
  </span>
+  <br/>  <br/>

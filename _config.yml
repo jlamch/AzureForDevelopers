@@ -26,3 +26,17 @@ paginate: 5
 # Plugins
 plugins_dir:
   - jekyll-admin
+
+social:
+- title: facebook
+  url: https://www.facebook.com/jlamch
+- title: star
+  url: https://www.linkedin.com/in/joannalamch/  
+- title: twitter
+  url: http://twitter.com/jlamch
+- title: github
+  url: http://github.com/jlamch
+- title: book
+  url: https://programistkaikot.pl
+- title: facebook
+  url: https://www.facebook.com/programistkaikot

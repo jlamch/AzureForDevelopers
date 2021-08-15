@@ -2,11 +2,20 @@
   <div class="footer container column align-items-center justify-content-center">
     <div class="footer--block text-align-center">
       <div class="" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-        <a href="https://www.youtube.com/channel/UCTRtzI-qd9bBcf4o4Pu0C6A"><span></span> {{ site.title }} YouTube</a>
+        <a href="https://www.youtube.com/channel/UCTRtzI-qd9bBcf4o4Pu0C6A"><i class="feather-icon icon-youtube "></i> {{ site.title }} YouTube</a>
       </div>
       <div class="by" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
         <a href="https://jlamch.net" target="_blank">Joanna Lamch</a>
-        <a href="https://programistkaikot.pl" target="_blank">Programistka i Kot</a>
+        <!-- <a href="https://programistkaikot.pl" target="_blank">Programistka i Kot</a> -->
+        <br/>
+        <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                    <li><a href="{{ network.url }}"><i class="feather-icon icon-{{ network.title }} "></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+        </div>
       </div>
     </div>
   </div>
