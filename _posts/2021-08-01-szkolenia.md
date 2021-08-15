@@ -17,7 +17,7 @@ questions:
     <a href="https://www.buymeacoffee.com/jolamch"><img src="{{ site.baseurl }}/assets/img/bmc-button.png" alt="Buy me a coffee" style="width:300px;height:80px;"></a>
     <a href="https://www.buymeacoffee.com/jolamch"></a>
   </div>
-  * Umów się ze mną na konsultacje, przy okazji pomogę w rozwiazaniu problemu albo zrobimy coś razem w Azure
+  * Umów się ze mną na konsultacje, przy okazji pomogę w rozwiazaniu problemu albo zrobimy coś razem w Azure. Wystawiam na to fakturkę na szkolenie ;)
 <!-- Calendly link widget begin -->
  
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">

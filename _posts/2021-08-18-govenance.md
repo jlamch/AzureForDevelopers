@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Chapter 2: Governance, resource $ cost managment'
+title: 'Chapter 2: Governance, resource & cost managment'
 description: 'Trudne zagadnienia, które często są poza mozliwościami programistów ale warto o nich wiedzieć'
 date:   2021-08-18 12:00:00 -0300
 categories: start blog
