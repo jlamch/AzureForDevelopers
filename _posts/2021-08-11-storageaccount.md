@@ -33,7 +33,7 @@ questions:
     date:    2021-09-15 12:00:00 -0300
   - question: '1.7 Blob Storage from .NET'
     answer: 'Zakodujmy sobie dostęp do blobów z aplikacji .NET'
-    ytlink: "https://youtube.com/playlist?list=PLC5LIX9Pfs1XyT8wVGmYCAMk2z24B08v5"
+    ytlink: "https://youtu.be/BV2rs_p3dC8"
     date:    2021-09-22 12:00:00 -0300
   - question: '1.8 Azure Tables'
     answer: 'Kolejki w prostszej formie? Storage Queue. Dobra i prosta dokumentówka - Storage Tables'
