@@ -1,6 +1,8 @@
-﻿using Azure.Storage.Blobs;
+﻿using Azure.Data.Tables;
+using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 using Azure.Storage.Blobs.Specialized;
+using Azure.Storage.Queues;
 using System;
 using System.Threading.Tasks;
 
@@ -18,7 +20,41 @@ namespace az204_blobdemo
     {
       Console.WriteLine("Hello Azure blob storage Demo!s");
       ProcessAsync().GetAwaiter().GetResult();
+      //AccessTable().GetAwaiter().GetResult();
+      //AccessQueue().GetAwaiter().GetResult();
     }
+
+    private static Task AccessQueue()
+    {
+      var serviceClient = new QueueServiceClient(connectionString);
+      var client = serviceClient.GetQueueClient("que");
+      var mess = client.ReceiveMessage();
+      //do what is needed with the message
+      //jest fajnie
+      client.DeleteMessage(mess.Value.MessageId, mess.Value.PopReceipt);
+      return Task.CompletedTask;
+    }
+
+    private static Task AccessTable()
+    {
+      var serviceClient = new TableServiceClient(connectionString);
+      var client = serviceClient.GetTableClient("tabletest");
+      var res = client.Query<MyData>(filter: "name eq 'Jo'");
+      return Task.CompletedTask;
+    }
+
+    public class MyData : ITableEntity
+    {
+      public string odataetag { get; set; }
+      public string PartitionKey { get; set; }
+      public string RowKey { get; set; }
+      public DateTime Timestamp { get; set; }
+      public string name { get; set; }
+      public string surname { get; set; }
+      public Azure.ETag ETag { get; set; }
+      DateTimeOffset? ITableEntity.Timestamp { get; set; }
+    }
+
     private static async Task ProcessAsync()
     {
       //step 1 create container client

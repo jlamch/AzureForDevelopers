@@ -1,0 +1,10 @@
+https://azure4developers01sa.table.core.windows.net/testtable/?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-09-27T06:04:40Z&st=2021-09-26T22:04:40Z&spr=https&sig=ohQHtQEHV%2BmVc9BSe5wnPsAvUMYvsHYQQpADUgCCCJQ%3D
+
+
+https://azure4developers01sa.table.core.windows.net/testtable(PartitionKey='001',RowKey='1')/?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-09-27T06:04:40Z&st=2021-09-26T22:04:40Z&spr=https&sig=ohQHtQEHV%2BmVc9BSe5wnPsAvUMYvsHYQQpADUgCCCJQ%3D
+
+https://azure4developers01sa.table.core.windows.net/testtable()/?$top=1&sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-09-27T06:04:40Z&st=2021-09-26T22:04:40Z&spr=https&sig=ohQHtQEHV%2BmVc9BSe5wnPsAvUMYvsHYQQpADUgCCCJQ%3D
+
+
+https://azure4developers01sa.table.core.windows.net/testtable()/?$filter=name eq 'Jo'&sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-09-27T06:04:40Z&st=2021-09-26T22:04:40Z&spr=https&sig=ohQHtQEHV%2BmVc9BSe5wnPsAvUMYvsHYQQpADUgCCCJQ%3D
+
