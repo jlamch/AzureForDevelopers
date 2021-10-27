@@ -9,21 +9,25 @@ icon: 'cloud'
 questions:
   - question: '2.0 Governance'
     answer: 'Zarządzenie subskrypcjami, zasadami na nich istniejącymi oraz zasobami'
-    ytlink: "https://youtube.com/playlist?list=PLC5LIX9Pfs1XyT8wVGmYCAMk2z24B08v5"
+    ytlink: "https://youtu.be/FpX7Iz6LxMk"
     date:    2021-10-06 12:00:00 -0300
   - question: '2.1 Azure Resource Managment'
     answer: 'Zarządzanie zasobami. Tworzenie zasobów za pomocą templatów'
-    ytlink: "https://youtube.com/playlist?list=PLC5LIX9Pfs1XyT8wVGmYCAMk2z24B08v5"
+    ytlink: "https://youtu.be/Wugs4_RkJVU"
     date:    2021-10-13 12:00:00 -0300
   - question: '2.2 Azure Toolkit'
     answer: 'Jakie mamy dostępne narzędzia co warto znać a co jest od nas wymagane na egzaminie'
-    ytlink: "https://youtube.com/playlist?list=PLC5LIX9Pfs1XyT8wVGmYCAMk2z24B08v5"
+    ytlink: "https://youtu.be/g1V5ZstHy3w"
     date:    2021-10-20 12:00:00 -0300
-  - question: '2.3 Azure Cost Managment'
+  - question: '2.3 Azure Toolkit Demo'
+    answer: 'Jakie mamy dostępne narzędzia co warto znać a co jest od nas wymagane na egzaminie'
+    ytlink: "https://youtu.be/d3L-u8BAM20"
+    date:    2021-10-20 12:00:00 -0300
+  - question: '2.4 Azure Cost Managment'
     answer: 'Kazdy powinien wiedzieć ile będzie kosztować rozwiązanie które wybieramy aby wybrać najlepiej, mimo ze nie zawsze mamy dostęp do pełnego zarządzania kosztami możsemy nadal brać koszt pod uwagę'
     ytlink: "https://youtube.com/playlist?list=PLC5LIX9Pfs1XyT8wVGmYCAMk2z24B08v5"
     date:    2021-10-27 12:00:00 -0300
-  - question: '2.2 ARM templates'
+  - question: '2.5 ARM templates'
     answer: 'Troszkę więcej o templejtach ARMowych'
     ytlink: "https://youtube.com/playlist?list=PLC5LIX9Pfs1XyT8wVGmYCAMk2z24B08v5"
     date:    2021-11-03 12:00:00 -0300

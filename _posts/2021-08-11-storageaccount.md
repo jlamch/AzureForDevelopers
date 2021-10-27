@@ -37,7 +37,7 @@ questions:
     date:    2021-09-22 12:00:00 -0300
   - question: '1.8 Azure Tables'
     answer: 'Kolejki w prostszej formie? Storage Queue. Dobra i prosta dokumentówka - Storage Tables'
-    ytlink: "https://youtube.com/playlist?list=PLC5LIX9Pfs1XyT8wVGmYCAMk2z24B08v5"
+    ytlink: "https://youtu.be/rvGeqSkH6yQ"
     date:    2021-09-29 12:00:00 -0300
 ---
   
