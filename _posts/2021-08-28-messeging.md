@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Chapter 11: Messeging'
+title: 'Chapter 10: Messeging'
 description: 'Jeśli nie zdarzenia to co? Service Bus'
 date:   2021-08-18 12:00:00 -0300
 categories: start blog

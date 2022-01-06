@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Chapter 16: Monitoring and logging'
+title: 'Chapter 15: Monitoring and logging'
 description: 'Jak juz aplikacje mamy stworzoną przychodzi czas na monitoring'
 date:   2021-08-18 12:00:00 -0300
 categories: start blog

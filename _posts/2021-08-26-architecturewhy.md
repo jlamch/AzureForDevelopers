@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Chapter 9: Architecture'
+title: 'Chapter 8: Architecture'
 description: 'Potrzeba wstępu do eventów i messegingu więc mamy przerywnik architektoniczy'
 date:   2021-08-18 12:00:00 -0300
 categories: start blog

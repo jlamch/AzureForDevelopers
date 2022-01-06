@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Chapter 14: API managment'
+title: 'Chapter 13: API managment'
 description: 'Wystawiamy na świat nasze API'
 date:   2021-08-18 12:00:00 -0300
 categories: start blog
